@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Game()
+comment0.text=\n\ It\ is\ a\ non-parameterised\ constructor\ for\ the\ game\ object.\ \n
+comment1.params=
+comment1.target=void\ begin()
+comment1.text=\n\ This\ method\ begins\ the\ game.\ It\ creates\ a\ Game\ object\ \n
+comment2.params=
+comment2.target=void\ play()
+comment2.text=\n\ This\ method\ is\ the\ central\ method\ and\ the\ game\ continues\ till\ the\ loop\ in\ the\ method\ is\ iterating.\n\ It\ is\ like\ a\ mediator\ method\ between\ the\ player\ and\ the\ computer.\n\ It\ does\ the\ functions\ like\ asking\ a\ player\ the\ Card\ he/she\ wants\ to\ pick,\ the\ card\ he/she\ wants\ to\ play\ etc.\n\ It\ also\ invokes\ the\ method\ which\ starts\ off\ the\ artificial\ intelligece\ part\ of\ the\ game.\n
+comment3.params=deck
+comment3.target=void\ checkWin(Deck)
+comment3.text=\n\ This\ is\ a\ security\ check\ method\ to\ ensure\ that\ a\ player\ is\ not\ bluffing.\n\ When\ a\ player\ declares\ that\ he\ has\ won,\ it\ checks\ if\ the\ player\ really\ has.\ \n
+numComments=4

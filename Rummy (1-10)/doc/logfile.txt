@@ -1,0 +1,49 @@
+Class documentation
+<---- javadoc command: ---->
+/usr/lib/jvm/java-6-openjdk/bin/javadoc
+-author
+-version
+-nodeprecated
+-package
+-noindex
+-notree
+-nohelp
+-nonavbar
+-source
+1.6
+-classpath
+/usr/share/bluej/bluejcore.jar:/usr/share/bluej/junit-4.8.2.jar:/home/students/nived2996/Desktop/Rummy
+-d
+/home/students/nived2996/Desktop/Rummy/doc
+-encoding
+UTF-8
+-charset
+UTF-8
+-docletpath
+/usr/share/bluej/bjdoclet.jar
+-doclet
+bluej.doclet.doclets.formats.html.HtmlDoclet
+/home/students/nived2996/Desktop/Rummy/Deck.java
+<---- end of javadoc command ---->
+Loading source file /home/students/nived2996/Desktop/Rummy/Deck.java...
+Constructing Javadoc information...
+Standard Doclet version 1.6.0_18
+Building tree for all the packages and classes...
+Generating /home/students/nived2996/Desktop/Rummy/doc/Deck.html...
+/home/students/nived2996/Desktop/Rummy/Deck.java:208: warning - @param argument "Deck" is not a parameter name.
+/home/students/nived2996/Desktop/Rummy/Deck.java:208: warning - @param argument "Card" is not a parameter name.
+/home/students/nived2996/Desktop/Rummy/Deck.java:39: warning - @param argument "Deck" is not a parameter name.
+/home/students/nived2996/Desktop/Rummy/Deck.java:101: warning - @param argument "int" is not a parameter name.
+/home/students/nived2996/Desktop/Rummy/Deck.java:119: warning - @param argument "Deck" is not a parameter name.
+/home/students/nived2996/Desktop/Rummy/Deck.java:119: warning - @param argument "int" is not a parameter name.
+/home/students/nived2996/Desktop/Rummy/Deck.java:119: warning - @param argument "int" is not a parameter name.
+Generating /home/students/nived2996/Desktop/Rummy/doc/package-frame.html...
+Generating /home/students/nived2996/Desktop/Rummy/doc/package-summary.html...
+Generating /home/students/nived2996/Desktop/Rummy/doc/constant-values.html...
+Building index for all the packages and classes...
+Building index for all classes...
+Generating /home/students/nived2996/Desktop/Rummy/doc/allclasses-frame.html...
+Generating /home/students/nived2996/Desktop/Rummy/doc/allclasses-noframe.html...
+Generating /home/students/nived2996/Desktop/Rummy/doc/index.html...
+Generating /home/students/nived2996/Desktop/Rummy/doc/stylesheet.css...
+7 warnings

@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Card
+comment0.text=\n\ This\ is\ the\ Card\ class\ which\ has\ many\ methods\ related\ to\ the\ Card\ object.\n\ Some\ of\ the\ methods\ it\ has\ are\ methods\ that\ convert\ a\ Card\ to\ a\ String,\ vice-versa,print\ a\ Card,\ compare\ Cards,\ etc.\n\ \n\ Each\ Card\ object\ has\ two\ attributes.\n\ suit\ \n\ rank\n\ \n\ @author\ Nived.Kodavali\n\ @version\ 1.0(Basic)\n
+comment1.params=
+comment1.target=Card()
+comment1.text=\n\ this\ is\ a\ non-parameterised\ constructor\ that\ creates\ a\ null\ Card\ Object.\n
+comment2.params=suit\ rank
+comment2.target=Card(int,\ int)
+comment2.text=\n\ this\ is\ a\ parameterised\ constructor\ that\ assigns\ the\ given\ value\ to\ the\ Card\ object\n\ @param\ suit\ The\ int\ containing\ the\ suit.\n\ @param\ rank\ The\ int\ containing\ the\ rank.\n
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment3.text=\n\ Returns\ a\ string\ representation\ of\ this\ Card.\n
+comment4.params=c
+comment4.target=void\ printCard(Card)
+comment4.text=\n\ This\ method\ prints\ the\ card\ given\ to\ it\ in\ a\ user\ friendly\ format.\n\ @param\ c\ The\ Card\ which\ needs\ to\ be\ printed\ in\ a\ user\ friendly\ format.\n
+comment5.params=c1\ c2
+comment5.target=int\ compareCard(Card,\ Card)
+comment5.text=\n\ This\ method\ compares\ two\ Cards\ and\ returns\ an\ integer\ according\ to\ whichever\ one\ is\ greater\n\ @param\ c1\ The\ first\ Card\ to\ be\ compared.\n\ @param\ c2\ The\ second\ Card\ to\ be\ compared.\n\ @return\ int\ -\ 0\ if\ the\ Cards\ are\ equal;\ 1\ if\ the\ first\ Card\ is\ greater;\ 2\ if\ the\ second\ Card\ is\ greater.\n
+comment6.params=output
+comment6.target=Card\ parseCard(java.lang.String)
+comment6.text=\n\ This\ method\ takes\ a\ string\ in\ form\ of\ "(rank)\ of\ (suit)".\ It\ returns\ a\ Card\ object\ that\ is\ its\ equivalent.\n\ @param\ output\ The\ string\ that\ is\ to\ be\ converted\ into\ a\ Card.\n\ @return\ Card\ -\ A\ Card\ which\ represents\ that\ input\ string.\n
+comment7.params=card
+comment7.target=java.lang.String\ parseString(Card)
+comment7.text=\n\ This\ method\ is\ the\ exact\ opposite\ of\ parseCard.\n\ It\ takes\ a\ Card\ object\ and\ retruns\ a\ string\ in\ form\ of\ "(rank)\ of\ (suit)".\n\ @param\ card\ A\ Card\ that\ needs\ to\ be\ converted\ to\ a\ String.\n\ @return\ String\ -\ A\ string\ that\ represents\ the\ Card\ given\ as\ a\ parameter.\n
+numComments=8

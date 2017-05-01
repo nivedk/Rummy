@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Game
+comment0.text=\n\ This\ is\ the\ Game\ class\ that\ is\ the\ central\ class.\n\ The\ game\ object\ represents\ a\ real\ life\ Rummy\ Game\ object\ and\ has\ the\ neccesary\ attributes.\n\ \n\ @author\ Nived.Kodavali\ \n\ @version\ 1.0(Basic)\n
+comment1.params=
+comment1.target=Game()
+comment1.text=\n\ It\ is\ a\ non-parameterised\ constructor\ for\ the\ game\ object.\ \n
+comment2.params=
+comment2.target=void\ begin()
+comment2.text=\n\ This\ method\ begins\ the\ game.\ It\ creates\ a\ Game\ object\ \n
+comment3.params=
+comment3.target=void\ play()
+comment3.text=\n\ This\ method\ is\ invohed\ on\ this\ Game.\n\ It\ is\ the\ central\ method\ and\ the\ game\ continues\ till\ the\ loop\ in\ the\ method\ is\ iterating.\n\ It\ is\ like\ a\ mediator\ method\ between\ the\ player\ and\ the\ computer.\n\ It\ does\ the\ functions\ like\ asking\ a\ player\ the\ Card\ he/she\ wants\ to\ pick,\ the\ card\ he/she\ wants\ to\ play\ etc.\n\ It\ also\ invokes\ the\ method\ which\ starts\ off\ the\ artificial\ intelligece\ part\ of\ the\ game.\n
+comment4.params=deck
+comment4.target=void\ checkWin(Deck)
+comment4.text=\n\ This\ is\ a\ security\ check\ method\ to\ ensure\ that\ a\ player\ is\ not\ bluffing.\n\ When\ a\ player\ declares\ that\ he\ has\ won,\ it\ checks\ if\ the\ player\ really\ has.\ \n\ @param\ deck\ The\ hand\ which\ the\ Player\ claims\ to\ be\ a\ Rummy\ hand.\n
+comment5.params=
+comment5.target=void\ checkWinComps()
+numComments=6

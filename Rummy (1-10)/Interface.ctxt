@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ intro()
+comment0.text=\n\ This\ is\ one\ of\ the\ first\ methods\ to\ be\ invoked\ in\ a\ game\ and\ is\ invoked\ only\ in\ the\ beginning.\n\ It\ is\ an\ introductory\ method\ as\ the\ name\ suggests\ and\ it\ asks\ the\ player\ whether\ he/she\ wants\ to\ play\ etc.\n
+comment1.params=s
+comment1.target=void\ slowPrint(java.lang.String)
+comment1.text=\n\ This\ is\ a\ method\ that\ is\ used\ to\ make\ the\ output\ look\ more\ pleasing\ and\ is\ invoked\ frequently\ in\ the\ game.\n\ It\ employs\ the\ Thread.sleep(int)\ method\ to\ print\ the\ output\ slowly\ where\ each\ character\ is\ printed\ after\ a\ gap\ of\ a\ few\ milliseconds.\n
+comment2.params=
+comment2.target=void\ printLine()
+comment3.params=
+comment3.target=void\ rules()
+comment3.text=\n\ This\ method\ prints\ the\ rules\ of\ Rummy\ in\ a\ user\ friendly\ format.\n
+numComments=4

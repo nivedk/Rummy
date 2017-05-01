@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ intro()
+comment0.text=\n\ This\ is\ one\ of\ the\ first\ methods\ to\ be\ invoked\ in\ a\ game\ and\ is\ invoked\ only\ in\ the\ beginning.\n\ It\ is\ an\ introductory\ method\ as\ the\ name\ suggests\ and\ it\ asks\ the\ player\ whether\ he/she\ wants\ to\ play\ etc.\n
+comment1.params=s
+comment1.target=void\ slowPrint(java.lang.String)
+comment1.text=\n\ This\ is\ a\ method\ that\ is\ used\ to\ make\ the\ output\ look\ more\ pleasing\ and\ is\ invoked\ frequently\ in\ the\ game.\n\ It\ employs\ the\ Thread.sleep(int)\ method\ to\ print\ the\ output\ slowly\ where\ each\ character\ is\ printed\ after\ a\ gap\ of\ a\ few\ milliseconds.\n\ @param\ s\ The\ string\ that\ has\ to\ be\ printed\ slowly.\n
+comment2.params=s
+comment2.target=void\ fastPrint(java.lang.String)
+comment2.text=\n\ This\ is\ a\ method\ that\ is\ used\ to\ make\ the\ output\ look\ more\ pleasing\ and\ is\ invoked\ frequently\ in\ the\ game.\n\ It\ employs\ the\ Thread.sleep(int)\ method\ to\ print\ the\ output\ slowly\ where\ each\ character\ is\ printed\ after\ a\ gap\ of\ a\ few\ milliseconds.\n\ @param\ s\ The\ string\ that\ has\ to\ be\ printed\ slowly.\n
+comment3.params=s
+comment3.target=void\ veryFastPrint(java.lang.String)
+comment3.text=\n\ This\ is\ a\ method\ that\ is\ used\ to\ make\ the\ output\ look\ more\ pleasing\ and\ is\ invoked\ frequently\ in\ the\ game.\n\ It\ employs\ the\ Thread.sleep(int)\ method\ to\ print\ the\ output\ slowly\ where\ each\ character\ is\ printed\ after\ a\ gap\ of\ a\ few\ milliseconds.\n\ @param\ s\ The\ string\ that\ has\ to\ be\ printed\ slowly.\n
+comment4.params=
+comment4.target=void\ printLine()
+comment4.text=\n\ This\ is\ a\ method\ which\ is\ invoked\ when\ a\ line\ needs\ to\ printed.\ It\ has\ a\ simple\ for\ loop\ that\ is\ employed\ to\ print\ a\ line.\n
+comment5.params=
+comment5.target=void\ rules()
+comment5.text=\n\ This\ method\ prints\ the\ rules\ of\ Rummy\ in\ a\ user\ friendly\ format.\n
+comment6.params=args
+comment6.target=void\ main(java.lang.String[])
+numComments=7

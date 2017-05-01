@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Card()
+comment0.text=\n\ this\ is\ a\ non-parameterised\ constructor\ that\ creates\ a\ null\ Card\ Object.\n
+comment1.params=suit\ rank
+comment1.target=Card(int,\ int)
+comment1.text=\n\ this\ is\ a\ parameterised\ constructor\ that\ assigns\ the\ given\ value\ to\ the\ Card\ object\n
+comment2.params=c
+comment2.target=void\ printCard(Card)
+comment2.text=\n\ This\ method\ prints\ the\ card\ given\ to\ it\ in\ a\ user\ friendly\ format.\n
+comment3.params=c1\ c2
+comment3.target=int\ compareCard(Card,\ Card)
+comment4.params=output
+comment4.target=Card\ parseCard(java.lang.String)
+comment5.params=card
+comment5.target=java.lang.String\ parseString(Card)
+numComments=6

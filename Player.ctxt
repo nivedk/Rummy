@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Player()
+comment0.text=\n\ This\ is\ a\ non\ parameterised\ constructor\ which\ returns\ a\ fully\ initialised\ Player\ object.\n
+comment1.params=
+comment1.target=void\ refreshCardsNeeded()
+comment1.text=\n\ This\ method\ is\ invoked\ on\ this\ Player.\n\ It\ modifies\ the\ int\ cardsNeeded[]\ array\ in\ this.\n\ One\ element\ in\ cardsNeeded\ represents\ a\ Card\ in\ a\ full\ Deck.\n\ It\ gives\ the\ integers\ in\ cardsNeeded\ appropriate\ values\ based\ on\ how\ important\ the\ Card\ it\ represents\ is.\n\ It\ will\ have\ more\ priority\ if\ it\ a\ part\ of\ a\ sequence\ and\ a\ triple,\ or\ two\ sequences\ and\ so\ on.\n\ It\ is\ a\ very\ powerful\ tool.\ Though\ it\ does\ not\ have\ too\ many\ important\ uses\ in\ this\ version,\ in\ later\ versions,\ based\ on\ the\ array\ generated\ by\ this\ method,\ the\ computer\ \n\ will\ decide\ how\ to\ organise\ its\ sets\ in\ order\ to\ win,\ etc.\ \n
+comment2.params=
+comment2.target=void\ refreshProbabilities()
+comment2.text=\n\ This\ is\ the\ central\ method\ in\ the\ Computer's\ 'brain'.\n\ It\ gets\ invoked\ on\ this\ Player.\n\ With\ the\ help\ of\ about\ 20+\ helper\ methods,\ it\ sorts\ out\ the\ computer's\ cards\ into\ different\ 'probabilities'.\n
+comment3.params=
+comment3.target=void\ checkWin()
+comment3.text=\n\ This\ method,\ invoked\ at\ the\ end\ of\ every\ Computer\ turn\ checks\ if\ the\ computer\ has\ won\ the\ game.\n\ If\ it\ has,\ it\ prints\ a\ message,\ prints\ out\ the\ sets\ and\ exits.\n
+comment4.params=game
+comment4.target=void\ start(Game)
+comment4.text=\n\ This\ method\ is\ like\ the\ headquarters\ for\ the\ computer's\ part\ of\ the\ game.\n\ It\ invokes\ different\ methods\ which\ 'play'\ the\ game\ on\ behalf\ of\ the\ computer.\ \n\ @param\ game\ it\ is\ the\ game\ object\ which\ has\ all\ the\ attributes\ of\ a\ game.\n
+comment5.params=game
+comment5.target=void\ pickCard(Game)
+comment5.text=\n\ As\ the\ player\ decides\ intutively\ which\ Card\ to\ pick\ he/she\ will\ surely\ use\ some\ 'parameters'.\ Pick\ card\ uses\ cards\ needed\ and\ other\ such\ 'parameters'\ to\ decide\ which\ card\ to\n\ pick.\n\ @param\ game\ it\ is\ the\ game\ object\ which\ has\ all\ the\ attributes\ of\ a\ game.\n
+comment6.params=deck
+comment6.target=Deck\ fixFourOfAKind(Deck)
+comment6.text=\n\ This\ method\ takes\ a\ Deck\ object(the\ Computer's\ hand)\ and\ extracts\ the\ pairs,\ triplets,\ fourOfAKinds\ which\ it\ puts\ into\ another\ Deck\ and\ returns.\n\ @param\ deck\ The\ computer's\ hand.\ \n\ @return\ deck\ -\ Later\ becomes\ one\ of\ the\ probabilities.\n
+comment7.params=deck
+comment7.target=Deck\ fixSequence(Deck)
+comment7.text=\n\ This\ method\ takes\ a\ Deck\ object(the\ Computer's\ hand)\ and\ extracts\ the\ sequences\ which\ it\ puts\ into\ another\ Deck\ and\ returns.\n\ @param\ deck\ The\ computer's\ hand.\ \n\ @return\ deck\ -\ Later\ becomes\ one\ of\ the\ probabilities.\n
+numComments=8
